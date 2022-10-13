@@ -21,12 +21,12 @@
                     </ul>
                     <ul class="contact-menu">
                         <li>
-                            <a href="#" class="icon icon-mail">
+                            <a href="mailto:" class="icon icon-mail">
                                 <span class="hidden">написать нам</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="icon icon-phone">
+                            <a href="tel:" class="icon icon-phone">
                                 <span class="hidden">позвонить нам</span>
                             </a>
                         </li>
@@ -41,7 +41,7 @@
                         Пакетные и индивидуальные туры
                         по лучшим планетам галактики.
                     </p>
-                    <a href="#" class="btn btn-yellow">Подбор тура</a>
+                    <a href="#vacation-request" class="btn btn-yellow">Подбор тура</a>
                 </section>
             </div>
         </header>
@@ -120,15 +120,123 @@
                     </div>
                 </div>
             </section>
-            <section>
-                <div class="wrapper"></div>
+            <section class="vacation-request" id="vacation-request">
+                <div class="wrapper column-container">
+                    <h2 class="hidden" >Заявка на тур</h2>
+                    <div class="left-column">
+                        <h3 class="lead">Готовы открыть<br> для себя что-то новое?</h3>
+                        <p>
+                            Отправьте заявку, заполнив форму справа,
+                            мы рассмотрим вашу кандидатуру и свяжемся
+                            с вами в течении 24 часов.
+                        </p>
+                    </div>
+                    <div class="right-column">
+                        <form action="mailto:" class="vacation-form">
+                            <div>
+                                <label for="name" class="hidden">ФИО</label>
+                                <input type="text" name="name" id="name" placeholder="ФИО">
+                            </div>
+                            <div>
+                                <label for="phone" class="hidden">Контактный телефон</label>
+                                <input type="tel" name="phone" id="phone" placeholder="Контактный телефон">
+                            </div>
+                            <div class="half-field">
+                                <label for="height" class="hidden">Рост</label>
+                                <input type="text" name="height" id="height" placeholder="Рост">
+                            </div>
+                            <div class="half-field">
+                                <label for="weight" class="hidden">Вес</label>
+                                <input type="text" name="weight" id="weight" placeholder="Вес">
+                            </div>
+                            <div>
+                                <input class ="hidden" type="checkbox" name="agreement" id="agreement">
+                                <label for="agreement">Согласен(а) наобработку персональных данных</label>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-black">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </section>
-            <section>
-                <div class="wrapper"></div>
+            <section class="timetable">
+                <div class="wrapper">
+                    <div class="timetable-info">
+                        <h2>Расписание полетов</h2>
+                        <p>
+                            Для вашего удобства мы разработали график полетов
+                            с вылетами из Москвы и Санкт-Петербурга. Вы также можете
+                            запросить <a href="#" target="_blank">индивидуальный полет</a>. 
+                        </p>
+                    </div>
+                    <table class="timetable-fligts">
+                        <thead>
+                            <tr>
+                                <th>№ Рейса</th>
+                                <th>Откуда-куда</th>
+                                <th>Время вылета</th>
+                                <th>Время прилета</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1635</td>
+                                <td>VKO-MOON</td>
+                                <td>00:45</td>
+                                <td>23:15</td>
+                            </tr>
+                            <tr>
+                                <td>70200</td>
+                                <td>LED-MOON</td>
+                                <td>17:30</td>
+                                <td>16:20</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </section>
         </main>
         <footer class="site-footer">
-
+            <div class="wrapper footer-columns">
+                <div class="left-column">
+                    <div class="logo-container">
+                        <a href="#" class="logo">
+                            <img src="img/logo.png" alt="Space-Z">
+                        </a>
+                        <p class="company-title">Space-Z</p>
+                    </div>
+                    <p class="copyright">
+                        ООО «Космос Зэ». Все права защищены.
+                    </p>
+                </div>
+                <div class="right-column">
+                    <nav class="footer-menu">
+                        <a href="#" class="footer-submenu-title">КОМПАНИЯ</a>
+                        <ul class="footer-submenu">
+                            <li><a href="#">История</a></li>
+                            <li><a href="#">Миссия</a></li>
+                            <li><a href="#">Команда</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-menu">
+                        <a href="#" class="footer-submenu-title">КАТАЛОГ</a>
+                        <ul class="footer-submenu">
+                            <li><a href="#">Полеты</a></li>
+                            <li><a href="#">Проживание</a></li>
+                            <li><a href="#">Экскурсии</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-menu">
+                        <a href="#" class="footer-submenu-title">КОНТАКТЫ</a>
+                        <ul class="footer-submenu">
+                            <li><a href="#">Отправить заявку</a></li>
+                            <li><a href="#">Схема проезда</a></li>
+                            <li><a href="#">Время работы</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </footer>
     </body>
 </html>

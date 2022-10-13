@@ -204,3 +204,104 @@ ul {
 .content .wrapper:first-child {
     margin-bottom: 50px;
 }
+/* start form */
+.vacation-request {
+    padding: 100px 0 70px;
+    color:#000;
+    background-color: #F0F0F0;
+}
+.vacation-request .lead {
+    margin-bottom: 60px;
+    padding-right: 160px;
+}
+.vacation-request p {
+    width: 340px;
+}
+.vacation-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    /* column-gap: 10px; */
+}
+.vacation-form div {
+    width: 100%;
+}
+
+.vacation-form input[type ="tel"], .vacation-form input[type ="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 17px 20px 17px 23px;
+}
+.vacation-form .half-field {
+    width: 49%;
+}
+
+.vacation-form input[type ="checkbox"] ~ label::before {
+    content: "\2713";
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25px;
+    height: 25px;
+
+    color: #FFF;
+    font-weight: bold;
+    background: #FFFFFF;
+    
+    margin-right: 1em;
+    border: 1px solid #FFF;
+}
+.vacation-form input[type ="checkbox"]:checked ~ label::before {
+    color: #000;
+}
+
+.btn-black {
+    color: #FFFFFF;
+    background: #222222;
+    margin-top: 40px;
+}
+.btn-black::after {
+    background: url("../img/right-arrow-white.png") no-repeat;
+}
+/* end form */
+.timetable {
+    background-color: #222222;
+    padding: 85px 0;
+}
+.timetable-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 77px;
+    gap: 20px 40px;
+}
+.timetable-info h2 {
+    color: #FECA30;
+    font-family: 'Courier New';
+    font-size: 24px;
+    line-height: 27px;
+    width: 160px;
+}
+.timetable-info p {
+    margin-left: auto;
+    width: 440px;
+}
+.timetable-info a {
+    color: #FECA30;
+}
+.timetable-fligts {
+    width: 100%;
+    border-collapse: collapse;
+}
+.timetable-fligts tr {
+    border-bottom: 1px solid #555555;
+}
+.timetable-fligts th {
+    background: #111111;
+    text-align: left;
+    padding: 15px;
+}
+.timetable-fligts td {
+    padding: 15px;
+}
