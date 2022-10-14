@@ -10,10 +10,7 @@ body {
     color: #D4D4D4;
 }
 .wrapper {
-    
     width: 75%;
-    /* max-width: 960px; */
-    
     margin: 0 auto;
 }
 .hidden {
@@ -165,7 +162,7 @@ ul {
 .column-container {
     display: flex;
     gap: 10px 80px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .left-column, .right-column {
     max-width: 480px;
@@ -305,3 +302,64 @@ ul {
 .timetable-fligts td {
     padding: 15px;
 }
+
+.site-footer {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    background-color: #131313;
+}
+   
+.footer-columns {
+    display: flex;
+    justify-content: space-evenly;
+} 
+.footer-columns .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-right: 100px;
+}  
+.logo-container {
+    display: flex;
+    align-items: center;
+  
+} 
+.logo-container .logo {
+    margin-right: 20px;
+}
+.copyright {
+    margin-top: auto;
+    color: #555555;
+}
+
+.footer-columns .right-column {
+    padding-top: 25px;
+    display: flex;
+    max-width: none;
+    column-gap: 80px;
+}
+.footer-menu {
+    width: 180px;
+}
+.footer-submenu-title {
+    display: block;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+    border-bottom: 1px solid #555555;
+}  
+.footer-submenu > li {
+    width: 180px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}  
+.footer-submenu a {
+    text-decoration: none;
+    color: #888888;
+}  
