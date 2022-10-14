@@ -19,6 +19,7 @@ body {
     width: 0;
     height: 0;
     margin: -1px;
+    opacity: 0;
 }
 /* end general */
 
@@ -354,9 +355,7 @@ ul {
   
     border-bottom: 1px solid #555555;
 }  
-.footer-submenu > li {
-    width: 180px;
-    margin-right: 60px;
+.footer-submenu > li {   
     margin-bottom: 20px;
 }  
 .footer-submenu a {
