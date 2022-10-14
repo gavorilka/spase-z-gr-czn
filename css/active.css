@@ -1,0 +1,39 @@
+.site-menu a:hover, .footer-menu a:hover {
+    color: #FECA30;
+}
+.site-menu a:active, .footer-menu a:active {
+    color: #363636;
+}
+.vacation-form [type="text"]:focus, .vacation-form [type="tel"]:focus {
+    border-color: #FECA30;
+    outline-color: #FECA30;
+}
+.vacation-form [type="text"]:not(:disabled):hover, .vacation-form [type="tel"]:not(:disabled):hover {
+    color: #222;
+}
+.vacation-form [placeholder]::placeholder {
+    color: #000;
+}
+.vacation-form [placeholder]::placeholder {
+    color: #000;
+}
+.vacation-form [placeholder]:hover::placeholder {
+    color: #9b574f;
+}
+
+.vacation-form [type="checkbox"]:not(:disabled):not(:checked) ~ label:hover::before {
+    background-color: #ffcb06;
+}
+.vacation-form [type="checkbox"]:not(:disabled):checked ~ label:hover::before {
+    border-color: #ffcb06;
+}
+.btn-black:hover {
+    box-shadow: 10px 5px 5px #ffcb06;
+}
+.btn-yellow:hover {
+    background-color: #ccc;
+}
+.timetable-info a:hover {
+    color:#fff;
+    filter: drop-shadow(5px 3px 3px #ffcb06);
+}
