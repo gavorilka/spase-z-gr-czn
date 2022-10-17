@@ -28,9 +28,7 @@ body {
     background: #222222;
 }
 .site-header .wrapper {
-    background-image: url("../img/moon-rocket.png");
-    background-repeat: no-repeat;
-    background-position: right 140px;
+
 
     padding-top: 54px;
     padding-bottom: 180px;
