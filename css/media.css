@@ -4,6 +4,9 @@
         background-repeat: no-repeat;
         background-position: right 140px;
     }
+    .timetable-info h2 {
+        font-family: Pang, cursive;
+    } 
 }
 @media (max-width:1024px) {
     .wrapper {
