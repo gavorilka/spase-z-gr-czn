@@ -19,4 +19,9 @@
 }
 .close-modal{
     background: rebeccapurple;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.close-modal::after {
+    content: none !important;
 }
